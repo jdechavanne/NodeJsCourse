@@ -14,7 +14,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:3000/api/v1/tours",
+							"raw": "localhost:3000/api/v1/tours?duration[gte]=10",
 							"host": [
 								"localhost"
 							],
@@ -23,6 +23,12 @@
 								"api",
 								"v1",
 								"tours"
+							],
+							"query": [
+								{
+									"key": "duration[gte]",
+									"value": "10"
+								}
 							]
 						}
 					},
