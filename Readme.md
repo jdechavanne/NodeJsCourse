@@ -41,4 +41,10 @@ Or the simpliest way, through a navigator !
 
 ## Show me the api !
 
-If you want to try the Api, you can import the postman collection from the postman-collection folder :)
+Just run :
+
+`npm run start:dev`
+
+This command will launch a local server on localhost port 3000
+
+Then if you want to try the Api, you can import the postman collection from the postman-collection folder :)
