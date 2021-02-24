@@ -1,4 +1,6 @@
 {
   "singleQuote": true,
-  "printWidth": 50
+  "printWidth": 80,
+  "arrow-body-style": "off",
+  "prefer-arrow-callback": "off"
 }
